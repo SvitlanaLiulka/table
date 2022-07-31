@@ -1,0 +1,18 @@
+.cell {
+  width: 130px;
+  height: 130px;
+  border: 2px solid #b7b5b5;
+  cursor: pointer;
+  transition: transform .1s;
+}
+
+.active {
+  border: 2px solid #a40101;
+  transform: scale(1.05);
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
